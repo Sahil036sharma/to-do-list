@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background:linear-gradient(45deg,#2ad468,#3f38c4,#FF7ED4 ,#2ad468,#73d4d7,#8ce80b);
+    background-size: 120% 120%;
+    background-color: aliceblue;
+    animation:color 10s ease-in-out infinite ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/384639760/display_1500/stock-photo-coffee-cup-and-notebook-with-to-do-list-on-blue-rustic-desk-from-above-planning-and-design-concept-384639760.jpg");
+
+
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+@keyframes color {
+    0%  {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #dadada;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 600px)
+{
+    .container
+    {
+
+        width:400px ;
+        margin: 0px 30px;
+
+    }
+
+
+}
